@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded", function () {
             <p><strong>Pizza:</strong> ${typeSelect.options[typeSelect.selectedIndex].text}</p>
             <p><strong>Size:</strong> ${sizeSelect.options[sizeSelect.selectedIndex].text}</p>
             <p><strong>Toppings:</strong> ${selectedToppings}</p>
-            <p><strong>Total Price:</strong> $${calculatePrice()}</p>
         `;
     }
 
